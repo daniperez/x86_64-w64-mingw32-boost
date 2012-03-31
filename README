@@ -1,0 +1,13 @@
+This is the same as [1]'s Boost package but it also includes the dlls from
+mingw-w64-bin package:
+
+  libstdc++6.dll
+  libgcc_s_sjlj-1.dll
+  libobjc-3.dll
+  libquadmath-0.dll
+  libssp-0.dll
+  libstdc++-6.dll
+
+And a pair of changes in boost/lexical_cast.hpp.
+
+[1] http://www.drangon.org/mingw/
